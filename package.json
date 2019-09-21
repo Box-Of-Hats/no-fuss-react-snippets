@@ -4,7 +4,10 @@
         "name": "box-of-hats"
     },
     "publisher": "box-of-hats",
-    "icon": "//TODO: ADD ICON//",
+    "icon": "logo.png",
+    "repository": {
+        "url": "https://github.com/Box-Of-Hats/no-fuss-react-snippets"
+    },
     "displayName": "no-fuss-react-snippets",
     "description": "A small collection of simple react snippets that you will actually use",
     "version": "0.0.1",

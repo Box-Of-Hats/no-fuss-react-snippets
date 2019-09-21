@@ -1,0 +1,29 @@
+{
+    "name": "no-fuss-react-snippets",
+    "author": {
+        "name": "box-of-hats"
+    },
+    "publisher": "box-of-hats",
+    "icon": "//TODO: ADD ICON//",
+    "displayName": "no-fuss-react-snippets",
+    "description": "A small collection of simple react snippets that you will actually use",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets-js.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets-ts.json"
+            }
+        ]
+    }
+}

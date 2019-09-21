@@ -23,6 +23,14 @@
             {
                 "language": "typescriptreact",
                 "path": "./snippets/snippets-ts.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets-ts-js.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets-ts-js.json"
             }
         ]
     }

@@ -1,22 +1,4 @@
 {
-    "React: Import": {
-        "body": "import React from 'react';",
-        "scope": "javascriptreact,javascript,typescriptreact,typescript",
-        "description": "React module import",
-        "prefix": "import-react"
-    },
-    "React: Functional component": {
-        "body": [
-            "export const ${1:ComponentName} = (props) => {",
-            "    return <>",
-            "        ${2}",
-            "    </>",
-            "}${0}"
-        ],
-        "scope": "javascriptreact,javascript",
-        "description": "Functional react component",
-        "prefix": "react-functional-component"
-    },
     "React: Functional component (TS)": {
         "body": [
             "interface ${1:ComponentName}Props {",
@@ -33,32 +15,10 @@
         "description": "Functional react component",
         "prefix": "react-functional-component"
     },
-    "React: Arrow function": {
-        "body": [
-            "const ${1:FunctionName} = (${2:Args}) => {",
-            "    ${3}",
-            "}${0}"
-        ],
-        "scope": "javascriptreact,javascript,typescriptreact,typescript",
-        "description": "Arrow function",
-        "prefix": "arrow-function"
-    },
-    "React: Fragment": {
-        "body": "<>\n</>",
-        "scope": "javascriptreact,javascript,typescriptreact,typescript",
-        "description": "React fragment",
-        "prefix": "fragment"
-    },
-    "React: Use State": {
+    "React: Use State (TS)": {
         "body": "const [${1:PropName}, set${1:PropName}] = useState<${3:Type}>(${4:InitialValue});\n${0}",
         "description": "Use state hook",
         "prefix": "use-state",
-        "scope": "javascriptreact,javascript,typescriptreact,typescript"
-    },
-    "React: Use Effect": {
-        "body": ["useEffect(() => {", "    ${2}", "}, ${1| ,[]|})", "${0}"],
-        "description": "Use effect hook",
-        "prefix": "use-effect",
-        "scope": "javascriptreact,javascript,typescriptreact,typescript"
+        "scope": "typescriptreact,typescript"
     }
 }

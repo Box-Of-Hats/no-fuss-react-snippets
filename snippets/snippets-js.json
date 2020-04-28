@@ -13,7 +13,7 @@
     },
 
     "React: Use State": {
-        "body": "const [${1:PropName}, set${1:PropName}] = useState(${2:InitialValue});\n${0}",
+        "body": "const [${1:PropName}, set${1/(.{1})/${1:/upcase}/}] = useState(${2:InitialValue});\n${0}",
         "description": "Use state hook",
         "prefix": "use-state",
         "scope": "javascriptreact,javascript"

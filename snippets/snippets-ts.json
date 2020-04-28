@@ -16,7 +16,7 @@
         "prefix": "react-functional-component"
     },
     "React: Use State (TS)": {
-        "body": "const [${1:PropName}, set${1:PropName}] = useState<${3:Type}>(${4:InitialValue});\n${0}",
+        "body": "const [${1:PropName}, set${1/(.{1})/${1:/upcase}/}] = useState<${3:Type}>(${4:InitialValue});\n${0}",
         "description": "Use state hook",
         "prefix": "use-state",
         "scope": "typescriptreact,typescript"
